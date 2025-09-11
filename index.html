@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlética Exabyte - Computação UFAL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="Atlética Exabyte">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#eventos" class="nav-link">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#produtos" class="nav-link">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#organizadores" class="nav-link">Organizadores</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ATLETICA EXABYTE</h1>
+            <p class="hero-subtitle">Tecnologia, inovação e comunidade estudantil em uma só força!</p>
+            <a href="#sobre" class="cta-button">Conheça a Atlética</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-image.svg" alt="Comunidade de tecnologia e esporte">
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre a Exabyte</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>A Atlética Exabyte é a representação máxima dos estudantes de Ciência da Computação da Universidade Federal de Alagoas. Fundada com o propósito de unir tecnologia, esporte e comunidade, somos a força que move o curso além das salas de aula.</p>
+                    <p>Nossa missão é promover integração entre os alunos através de eventos esportivos, competições de programação, hackathons e atividades sociais, sempre com foco no desenvolvimento técnico e humano de nossos membros.</p>
+                    <p>Valorizamos a inovação, o trabalho em equipe e o espírito competitivo saudável, características essenciais para os profissionais de tecnologia do futuro.</p>
+                </div>
+                <div class="sobre-icons">
+                    <div class="icon-item">
+                        <div class="icon-box">
+                            <img src="images/icons/tecnologia.png" alt="Tecnologia">
+                        </div>
+                        <h3>Tecnologia</h3>
+                    </div>
+                    <div class="icon-item">
+                        <div class="icon-box">
+                            <img src="images/icons/esportes.png" alt="Esportes">
+                        </div>
+                        <h3>Esportes</h3>
+                    </div>
+                    <div class="icon-item">
+                        <div class="icon-box">
+                            <img src="images/icons/comunidade.png" alt="Comunidade">
+                        </div>
+                        <h3>Comunidade</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos Section -->
+    <section id="eventos" class="eventos" style="
+        background: url('images/background/events.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;">
+        
+        <div class="container">
+            <h2 class="section-title">Eventos</h2>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <div class="evento-status aberto">Aberto</div>
+                    <h3 class="evento-nome">Seletiva para o JUCA 2025 </h3>
+                    <p class="evento-data">À definir, 2025</p>
+                    <p class="evento-local">UFAL - Instituto de Computação</p>
+                    <p class="evento-descricao">Maratona de programação com desafios reais e prêmios para os melhores projetos.</p>
+                    <a href="#" class="evento-btn">Inscreva-se</a>
+                </div>
+                
+                <div class="evento-card">
+                    <div class="evento-status nao-iniciado">Não Iniciado</div>
+                    <h3 class="evento-nome">Torneio de E-Sports</h3>
+                    <p class="evento-data">À definir, 2025</p>
+                    <p class="evento-local">On-line</p>
+                    <p class="evento-descricao">Competição de jogos on-line entre equipes de alunos de Ciência da Computação.</p>
+                    <a href="#" class="evento-btn disabled">Em Breve</a>
+                </div>
+                
+                <div class="evento-card">
+                    <div class="evento-status nao-iniciado">Não Iniciado</div>
+                    <h3 class="evento-nome">Jogos Universitarios do Camp. Arapiraca</h3>
+                    <p class="evento-data">?? de Outubro, 2025</p>
+                    <p class="evento-local">UFAL - Campus Arapiraca</p>
+                    <p class="evento-descricao">Campeonato de esportes internos entre as atléticas do Campus Arapiraca.</p>
+                    <a href="#" class="evento-btn disabled">Em Breve</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="produtos" style="
+        background: url('images/background/product.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;">
+        
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <div class="produto-status encerrado">Encerrado</div>
+                    <div class="produto-image">
+                        <img src="images/produtos/camisa.jpg" alt="Camisa Exabyte">
+                    </div>
+                    <h3 class="produto-nome">Camisa Exabyte</h3>
+                    <p class="produto-preco">R$ 70,00</p>
+                    <a href="#" class="produto-btn disabled">Esgotado</a>
+                </div>
+                
+                <div class="produto-card">
+                    <div class="produto-status encerrado">Encerrado</div>
+                    <div class="produto-image">
+                        <img src="images/produtos/bone.jpg" alt="Boné Exabyte">
+                    </div>
+                    <h3 class="produto-nome">Bone Exabyte</h3>
+                    <p class="produto-preco">R$ 30,00</p>
+                    <a href="#" class="produto-btn disabled">Esgotado</a>
+                </div>
+                
+                <div class="produto-card">
+                    <div class="produto-status aberto">Aberto</div>
+                    <div class="produto-image">
+                        <img src="images/produtos/adesivo.jpg" alt="Adesivo Exabyte">
+                    </div>
+                    <h3 class="produto-nome">Kit Adesivos</h3>
+                    <p class="produto-preco">R$ 5,00</p>
+                    <a href="#" class="produto-btn">Comprar</a>
+                </div>
+                
+                <div class="produto-card">
+                    <div class="produto-status nao-iniciado">Não Iniciado</div>
+                    <div class="produto-image">
+                        <img src="images/produtos/colete.jpg" alt="Colete Exabyte">
+                    </div>
+                    <h3 class="produto-nome">Colete Desportivo</h3>
+                    <p class="produto-preco">R$ 25,00</p>
+                    <a href="#" class="produto-btn disabled">Em Breve</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Organizadores Section -->
+    <section id="organizadores" class="organizadores">
+        <div class="container">
+            <h2 class="section-title">Nossa Equipe</h2>
+            <div class="organizadores-grid">
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/presidente.png" alt="Presidente">
+                    </div>
+                    <h3 class="organizador-nome">Guilherme Kaua</h3>
+                    <p class="organizador-cargo">Presidente</p>
+                </div>
+                
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/vice.jpg" alt="Vice-Presidente">
+                    </div>
+                    <h3 class="organizador-nome">Luis Gustavo</h3>
+                    <p class="organizador-cargo">Vice-Presidente</p>
+                </div>
+                
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/marketing.jpeg" alt="Diretor de Marketing">
+                    </div>
+                    <h3 class="organizador-nome">Jhony Wictor</h3>
+                    <p class="organizador-cargo">Marketing e Design</p>
+                </div>
+                
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/marketing2.png" alt="Vice-Diretor de Marketing">
+                    </div>
+                    <h3 class="organizador-nome">Karleandro Silva</h3>
+                    <p class="organizador-cargo">Marketing e Design</p>
+                </div>
+                
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/marketing3.jpg" alt="Fotógrafo de Marketing">
+                    </div>
+                    <h3 class="organizador-nome">Har Henrique</h3>
+                    <p class="organizador-cargo">Fotografia e Vídeos</p>
+                </div>
+
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/esportes.jpg" alt="Diretor de Esportes">
+                    </div>
+                    <h3 class="organizador-nome">Mikael Pereira</h3>
+                    <p class="organizador-cargo">Esportes</p>
+                </div>
+
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/sports.jpg" alt="Diretor de E-Sportes">
+                    </div>
+                    <h3 class="organizador-nome">Igor Silva</h3>
+                    <p class="organizador-cargo">E-Sportes</p>
+                </div>
+
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/sports2.jpg" alt="Vice-Diretor de (E)sportes">
+                    </div>
+                    <h3 class="organizador-nome">Lucas Rosendo</h3>
+                    <p class="organizador-cargo">Esportes e E-Sportes</p>
+                </div>
+
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/vendas.jpg" alt="Diretor de Vendas">
+                    </div>
+                    <h3 class="organizador-nome">Rian Carlos</h3>
+                    <p class="organizador-cargo">Vendas</p>
+                </div>
+
+                <div class="organizador-card">
+                    <div class="organizador-image">
+                        <img src="images/organizadores/financeiro.jpg" alt="Diretor de Finanças">
+                    </div>
+                    <h3 class="organizador-nome">Washington Gaia</h3>
+                    <p class="organizador-cargo">Finanças</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato" style="
+    background: url('images/background/contact.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="contato-descricao">
+                Fique por dentro de todas as novidades e eventos da Atlética Exabyte seguindo nossas redes sociais ou entrando em contato diretamente conosco.
+            </p>
+            <div class="contato-buttons">
+                <a href="https://www.instagram.com/atleticaexabyte/" class="social-btn instagram">Instagram</a>
+                <a href="https://steamcommunity.com/groups/atleticaexabyte404" class="social-btn steam">Steam</a>
+                <a href="https://discord.com/invite/qZeMvPN67J" class="social-btn discord">Discord</a>
+                <a href="mailto:exabyteatletica@gmail.com" class="social-btn email">E-mail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="
+        background: url('images/background/footer.jpg') no-repeat center center;
+        background-size: cover;
+        color: #faf5f5;
+        padding: 50px 0 20px;">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Atlética Exabyte">
+                </div>
+
+                <div class="footer-social">
+                    <h4>Se Conecte!</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/atleticaexabyte/"><img src="images/instagram.svg" alt="Instagram"></a>
+                        <a href="https://steamcommunity.com/groups/atleticaexabyte404"><img src="images/steam.svg" alt="Steam"></a>
+                        <a href="https://discord.com/invite/qZeMvPN67J"><img src="images/discord.svg" alt="Discord"></a>
+                        <a href="mailto:exabyteatletica@gmail.com"><img src="images/email.svg" alt="E-mail"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Atlética Exabyte - Ciência da Computação UFAL. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
