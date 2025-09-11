@@ -2,8 +2,8 @@
 
 /* Importação de fontes */
 @font-face {
-    font-family: 'Motorblock';
-    src: url('fonts/Motorblock.ttf') format('truetype');
+    font-family: 'Exabyte';
+    src: url('fonts/Exabyte-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,7 +38,7 @@ body {
 
 /* Tipografia */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Motorblock', sans-serif;
+    font-family: 'Exabyte', sans-serif;
     font-weight: normal;
     margin-bottom: 0.5rem;
 }
