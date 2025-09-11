@@ -148,14 +148,14 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #830be8;
+    color: #faf5f5;
     text-transform: uppercase;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #914acd;
+    color: #b36cec;
 }
 
 .hero-description {
