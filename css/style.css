@@ -590,21 +590,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Efeito no mobile (toque) */
-@media (hover: none) and (pointer: coarse) {
-    .organizador-card {
-        transition: none;
-    }
-    
-    .organizador-card:active .organizador-overlay {
-        right: 0;
-    }
-    
-    .organizador-card:active .biografia-content {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
+
+
+
 /* Contato Section */
 .contato {
     padding: 100px 0;
@@ -649,6 +637,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-btn.email {
     background: linear-gradient(45deg, #830be8, #f90ee7);
+}
+
+.social-btn.youtube {
+    background: linear-gradient(45deg, #3d444d, #000000);
 }
 
 .social-btn:hover {
@@ -740,6 +732,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     color: #830be8;
     text-align: right; /* Alinha o título à direita */
+    font-size: 2rem;
 }
 
 .social-icons {
@@ -859,6 +852,32 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 }
+
+/* Footer background exclusivo para mobile */
+@media screen and (max-width: 600px) {
+    .footer {
+        background: url('images/background/mobile/mob-footer.jpg') no-repeat center center !important;
+        background-size: cover !important;
+    }
+}
+
+/* Efeito no mobile (toque) */
+@media (hover: none) and (pointer: coarse) {
+    .organizador-card {
+        transition: none;
+    }
+    
+    .organizador-card:active .organizador-overlay {
+        right: 0;
+    }
+    
+    .organizador-card:active .biografia-content {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 /* Logo E - Acompanha o overlay */
 .logo-e {
     position: absolute;
