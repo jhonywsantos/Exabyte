@@ -745,6 +745,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     color: #830be8;
     text-align: right; /* Alinha o título à direita */
+    font-size: 2rem;
 }
 
 .social-icons {
