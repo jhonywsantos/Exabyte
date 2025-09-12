@@ -554,6 +554,10 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(45deg, #830be8, #f90ee7);
 }
 
+.social-btn.youtube {
+    background: linear-gradient(45deg, #3d444d, #000000);
+}
+
 .social-btn:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(131, 11, 232, 0.3);
