@@ -762,3 +762,11 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 }
+
+/* Footer background exclusivo para mobile */
+@media screen and (max-width: 600px) {
+    .footer {
+        background: url('images/background/mobile/mob-footer.jpg') no-repeat center center !important;
+        background-size: cover !important;
+    }
+}
