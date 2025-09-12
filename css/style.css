@@ -859,3 +859,69 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 }
+/* Logo E - Acompanha o overlay */
+.logo-e {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    transform: translateY(-50%) scale(0.8);
+    width: 60px;
+    height: 80px;
+    background: linear-gradient(135deg, #830be8 0%, #914acd 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.6s ease;
+    z-index: 15;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    opacity: 0; /* escondida inicialmente */
+    pointer-events: none; 
+}
+
+/* Quando passar o mouse no card -> logo aparece e se move */
+.organizador-card:hover .logo-e {
+    right: calc(100% - 80px); 
+    opacity: 1;               
+    transform: translateY(-50%) scale(1);
+}
+
+/* Depois de meio segundo, some suavemente */
+.organizador-card:hover .logo-e {
+    animation: desaparecer 0.6s ease forwards;
+    animation-delay: 0.5s; /* espera antes de sumir */
+}
+
+@keyframes desaparecer {
+    to {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.8);
+    }
+}
+
+/* Responsividade para a logo */
+@media (max-width: 768px) {
+    .logo-e {
+        width: 50px;
+        height: 70px;
+        font-size: 35px;
+    }
+    
+    .organizador-card:hover .logo-e {
+        right: calc(100% - 70px);
+    }
+}
+
+/* Logo aparece ao passar o dedo em cima (sem precisar clicar) */
+    .organizador-card:hover .logo-e {
+        right: calc(100% - 70px);
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+        animation: desaparecer 0.6s ease forwards;
+        animation-delay: 0.5s;
+}
+
